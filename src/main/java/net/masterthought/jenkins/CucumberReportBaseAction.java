@@ -1,12 +1,8 @@
 package net.masterthought.jenkins;
 
 import hudson.FilePath;
-import hudson.PluginWrapper;
-import hudson.model.AbstractItem;
 import hudson.model.Action;
 import hudson.model.DirectoryBrowserSupport;
-import hudson.model.ProminentProjectAction;
-import jenkins.model.Jenkins;
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
@@ -21,11 +17,11 @@ public abstract class CucumberReportBaseAction implements Action {
     }
     
     public String getDisplayName(){
-        return "Cucumber Reports";
+        return "Basware Cucumber Reports";
     }
     
     public String getIconFileName(){
-            return "/plugin/cucumber-reports/cuke.png";
+            return "/plugin/basware-cucumber-reports/cuke.png";
     }
 
     public void doDynamic(StaplerRequest req, StaplerResponse rsp) throws IOException, ServletException {

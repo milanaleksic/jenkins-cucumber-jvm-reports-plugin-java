@@ -8,8 +8,8 @@
     </parent>
 
     <groupId>net.masterthought.jenkins</groupId>
-    <artifactId>cucumber-reports</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <artifactId>basware-cucumber-reports</artifactId>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <scm>
@@ -95,7 +95,7 @@
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
-            <version>0.1.0</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
           <groupId>com.googlecode.totallylazy</groupId>
